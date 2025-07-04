@@ -1,6 +1,6 @@
 ## User Management Portal - Backend
 
-This is the backend for the User Management Portal, built using NestJS and TypeScript. The application provides a secure user management system with features such as registration, login, OTP verification, role-based access, token renewal, file upload, and an admin dashboard for managing users.
+This is the backend for the User Management Portal, built using NestJS and TypeScript. The application provides a secure user management system with features such as registration, login, OTP verification, role-based access, token renewal, file upload, and an admin,manager, user dashboard for managing users.
 
 ### Features
 
@@ -27,7 +27,7 @@ This is the backend for the User Management Portal, built using NestJS and TypeS
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd user-management-portal/backend
+   cd user-management-portal/
    ```
 
 2. Install dependencies:
@@ -51,9 +51,8 @@ The API documentation is available at `/api` once the server is running. Use Swa
 
 To run the tests, use the following command:
 ```bash
-npm run test
+npm run test 
 ```
 
 ### License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
